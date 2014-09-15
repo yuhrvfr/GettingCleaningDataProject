@@ -1,7 +1,7 @@
 GettingCleaningDataProject
 ==========================
 
-##Objective of the project 
+#Objective of the project 
 
 Get tidy data representing the mean per activity and per subject based on dataset provided by this link: 
 "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
@@ -36,23 +36,25 @@ From the data set in step 4, creates a second, independent tidy data set with th
      Data file   : MyTidyResult.txt
 
 
-# Manual Steps recommanded
+Manual Steps recommanded
+========================
 
-1 create directory project
+#1 create directory project
 
 Download "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 into the directory ./project
 
-2 Extract "getdata-projectfiles-UCI HAR Dataset.zip"
+#2 Extract "getdata-projectfiles-UCI HAR Dataset.zip"
 
-3 You should find 4 directories created under ./project
+#3 You should find 4 directories created under ./project
+
  ./project
     /getdata-projectfiles-UCI HAR Dataset
       /UCI HAR Dataset
         /test
         /train
 
-4 Launch R console
+#4 Launch R console
 
    Verify your version, I am using:
    --------------------------------
@@ -60,16 +62,18 @@ into the directory ./project
    Copyright (C) 2014 The R Foundation for Statistical Computing
    Platform: x86_64-w64-mingw32/x64 (64-bit)
 
-   Under Window 7 plateform HP laptop core i3 intel with 4 Giga Byte of RAM
+   I am using a Window 7 plateform on HP laptop core i3 intel with 4 Giga Byte of RAM
+   
 
 
-5  go to the working directory
+#5  go to the working directory
 
 Either change dir in R consol of use the command below
 setwd("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset")
 
 
-6 Use the script run_analysis.R
+#6 Use the script run_analysis.R
+
 Once you are positioned in the directory "UCI HAR Dataset"
 Make you have the script run_analysis.R to run
 
