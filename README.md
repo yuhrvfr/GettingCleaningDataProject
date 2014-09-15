@@ -3,13 +3,12 @@ GettingCleaningDataProject
 
 #Objective of the project 
 
-Get tidy data representing the mean per activity and per subject based on dataset provided by this link: 
-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+Get tidy data representing the average of mean and standard deviation per activity and per subject based on dataset provided by this link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
-Create one R script called run_analysis.R that does the following. 
+Create one R script called run_analysis.R that does the following:
 
- Merges the training and the test sets to create one data set.
+1 Merges the training and the test sets to create one data set.
    The 3 dataframes representing the 1 data set for the project
    
     Dataset name        Description
@@ -18,22 +17,25 @@ Create one R script called run_analysis.R that does the following.
      DataT               Combined Data
      SubjectT            Combined Subject
 
-Extracts only the measurements on the mean and standard deviation for each measurement. 
+2 Extracts only the measurements on the mean and standard deviation for each measurement. 
+
    The dataset DataT for only mean() and std()
       mean():  mean
-       std() :  standard deviation
-       Refer the README.txt
+      std() :  standard deviation
+     Refer the README.txt
     The data set name is MeanStdT
 
-Uses descriptive activity names to name the activities in the data set
+3 Uses descriptive activity names to name the activities in the data set
    The dataset Data3 has the column ActivityName
 
-Appropriately labels the data set with descriptive variable names. 
+4 Appropriately labels the data set with descriptive variable names. 
    The dataset Data3 has also the descriptive variable names added loading feature names
 
-From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+
      Dataset name: FinalResult
      Data file   : MyTidyResult.txt
+
 
 
 Manual Steps recommanded
@@ -68,8 +70,9 @@ into the directory ./project
 
 #5  go to the working directory
 
-Either change dir in R consol of use the command below
-setwd("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset")
+Either change dir in R consol of use the command below:
+
+> setwd("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset")
 
 
 #6 Use the script run_analysis.R
