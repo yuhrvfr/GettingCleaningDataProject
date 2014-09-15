@@ -8,10 +8,10 @@ all other variables are numbers representing Average of mean and standard deviat
 The measures are taking into 3 axis X, Y, Z, please review the README.txt of the initial dataset included in the following URL
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 ========================================================================================================================
- 
-    Variable                         Values
-	 ------------------------------   -----------------------------------
- [1] "Activity"                       WALKING
+ [1] "Activity"  
+    Variable                         Value
+    ------------------------------   -----------------------------------
+                                      WALKING
                                       WALKING_UPSTAIRS
                                       WALKING_DOWNSTAIRS
                                       SITTING
