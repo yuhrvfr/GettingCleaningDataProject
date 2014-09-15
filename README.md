@@ -73,5 +73,5 @@ Make you have the script run_analysis.R to run
 
 > source("run_analysis.R")
 
-# The result file 
+The result file 
  MyTidyResult.txt will be created under the directory "UCI HAR Dataset"
