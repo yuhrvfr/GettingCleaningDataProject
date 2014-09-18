@@ -70,6 +70,8 @@ into the directory ./project
 
 > install.packages("reshape2")
 
+  follow the instruction to the find the website from which the code will come from to complete installation.
+
 
 #5  go to the working directory
 
