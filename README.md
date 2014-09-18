@@ -66,6 +66,9 @@ into the directory ./project
 
    I am using a Window 7 plateform on HP laptop core i3 intel with 4 Giga Byte of RAM
    
+#6 Make sure you have the package reshape2 installed, if not please execute:
+
+> install.packages("reshape2")
 
 
 #5  go to the working directory
