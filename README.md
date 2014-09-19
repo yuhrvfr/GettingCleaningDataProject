@@ -82,10 +82,11 @@ Either change dir in R consol of use the command below:
 
 #6 Use the script run_analysis.R
 
-Once you are positioned in the directory "UCI HAR Dataset"
-Make you have the script run_analysis.R to run
+Once you are positioned in the directory "UCI HAR Dataset".
+Verify you have the script run_analysis.R and run
 
 > source("run_analysis.R")
 
-The result file 
+The result file:
+
  MyTidyResult.txt will be created under the directory "UCI HAR Dataset"
