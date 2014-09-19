@@ -88,5 +88,4 @@ Verify you have the script run_analysis.R and run
 > source("run_analysis.R")
 
 The result file:
-
- MyTidyResult.txt will be created under the directory "UCI HAR Dataset"
+       MyTidyResult.txt will be created under the directory "UCI HAR Dataset"
