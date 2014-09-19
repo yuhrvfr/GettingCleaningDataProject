@@ -50,11 +50,11 @@ into the directory ./project
 
 #3 You should find 4 directories created under ./project
 
- ./project
-    /getdata-projectfiles-UCI HAR Dataset
-      /UCI HAR Dataset
-        /test
-        /train
+    ./project
+      /getdata-projectfiles-UCI HAR Dataset
+        /UCI HAR Dataset
+         /test
+         /train
 
 #4 Launch R console
 
