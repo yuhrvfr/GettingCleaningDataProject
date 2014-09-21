@@ -6,7 +6,7 @@ all other variables are numbers representing Average of mean and standard deviat
    std()  :  Average of standard deviation value
 
 The measures are taking into 3 axis X, Y, Z, please review the README.txt of the initial dataset included in the following URL
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip for more information
 ========================================================================================================================
  [1] "Activity"  
     Variable                         Value
