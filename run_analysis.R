@@ -115,7 +115,7 @@ Data3 <- merge(Data2,activityLabels)
 # from the dataset Data3, create a new independent tidy dataset with the average
 # of each variable for each activity and each subject
 
-# Get the indices of the columns for execution of aggregated main function
+# Get the indices of the columns for execution of aggregated mean function
 l <- c(grep("mean()",names(Data3),fixed=TRUE),grep("std()",names(Data3),fixed=TRUE))
 
 # Load the library reshape2
